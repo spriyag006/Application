@@ -2,7 +2,6 @@
 
 This project was bootstrapped with Create React App.
 
-**Live Demo:** https://shebuilds-fsd-training.onrender.com
 
 **GitHub Repository:** https://github.com/spriyag006/shebuilds-fsd-training
 
