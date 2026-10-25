@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Student Placement Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based dashboard for viewing and managing student placement information, developed as part of the **SheBuilds Full Stack Development Training – Module 4**.
+
+**Live Demo:** https://shebuilds-fsd-training.onrender.com
+
+**GitHub Repository:** https://github.com/spriyag006/shebuilds-fsd-training
+
+## Tech Stack
+
+- React 19
+- JavaScript
+- HTML5
+- CSS3
+- React Router (if used)
+- React Testing Library
+- Jest
+- Render (Static Site Deployment)
+
+## Features
+
+- View student placement information.
+- Search and filter student records (if implemented).
+- Display placement statistics and summaries (if implemented).
+- Manage student placement details.
+- Responsive dashboard interface (if implemented).
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or later
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/spriyag006/shebuilds-fsd-training.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd shebuilds-fsd-training/module4/student-placement-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Run Locally
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Open http://localhost:3000 in your browser.
+
+The application automatically reloads when you make changes to the source code.
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Starts the development server |
+| `npm test` | Runs the test suite |
+| `npm run build` | Creates an optimized production build |
+| `npm run eject` | Exposes the underlying configuration (one-way operation) |
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```text
+student-placement-dashboard/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Note: The folder and file structure may vary depending on your implementation.*
 
-### `npm test`
+## Deployment on Render
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project can be deployed on Render as a **Static Site**.
 
-### `npm run build`
+### Build Settings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Setting | Value |
+|---|---|
+| Service Type | Static Site |
+| Root Directory | `module4/student-placement-dashboard` |
+| Build Command | `npm install && npm run build` |
+| Publish Directory | `build` |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If the application uses React Router, configure a rewrite rule in Render:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Source:** `/*`
+- **Destination:** `/index.html`
+- **Action:** Rewrite
 
-### `npm run eject`
+After successful deployment, add the generated Render URL to the Live Demo section above.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Sangeetha Priya**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+GitHub: https://github.com/spriyag006
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed as part of the SheBuilds Full Stack Development Training – Module 4.
