@@ -3,6 +3,7 @@
 ## 📌 Overview
 Smart Weather Travel is a web application designed to help users plan their trips by checking weather conditions at their desired destinations. It helps travellers make better travel decisions using weather information and destination details.
 
+**live website** https://application-1-igs7.onrender.com
 ## ✨ Features
 - 🌤️ Check weather conditions for a selected city
 - 📍 Search for travel destinations
