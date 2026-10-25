@@ -1,6 +1,6 @@
 # Student Placement Dashboard
 
-A React-based dashboard for viewing and managing student placement information, developed as part of the **SheBuilds Full Stack Development Training – Module 4**.
+This project was bootstrapped with Create React App.
 
 **Live Demo:** https://shebuilds-fsd-training.onrender.com
 
