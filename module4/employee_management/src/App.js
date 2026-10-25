@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import EmployeeList from './components/EmployeeList';
-import AddEmployee from './components/AddEmployee';
-import EmployeeProfileUpdate from './components/EmployeeProfileUpdate';
-import EmployeeSearch from './components/EmployeeSearch';
+import EmployeeList from './component/EmployeeList';
+import AddEmployee from './component/AddEmployee';
+import EmployeeProfileUpdate from './component/EmployeeProfileUpdate';
+import EmployeeSearch from './component/EmployeeSearch';
 import { useState } from "react";
 
 function App() {
